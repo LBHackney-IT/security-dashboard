@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h1>{{ title }}</h1>
+        <h2>Vulnerability Scanning Results</h2>
+        <ul>
+            <li>High vulnerabilities:{{ vulnerability_count_high }} </li>
+            <li>Medium vulnerabilities:{{ vulnerability_count_medium }}</li>
+            <li>Low vulnerabilities:{{ vulnerability_count_low }}</li>
+        </ul>
+
+        <h2>Failed scans in the last 24 hours</h2>
+        <ul>
+            <li>Hackney Intranet (talk to Rasit)</li>
+        </ul>
+
+        <h2>What's lingering?</h2>
+        <ul>
+            <li>(low) https://intranet.hackney.gov.uk Weak cipher suites found 572 days ago</li>
+        </ul>
+    </body>
+</html>
